@@ -1,0 +1,170 @@
+@media screen and (max-width: 950px){
+  .container {
+    width: 100%;
+  }
+
+  .quality::after {
+    display: none;
+  }
+
+  .quality-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .grid-1-3  {
+    width: 50vw;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .container-services {
+    margin-top: 100px;
+  }
+
+  .about-services {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .services-cards {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:768px) {
+  
+  .banner-text {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  .text h1 {
+    font-size: 30px;
+  }
+
+  .text p {
+    font-size: 25px;
+  }
+
+  .text .btn {
+    font-size: 10px;
+  }
+
+  .services-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .intro-text-button .container-ul {
+    width: 100%;
+  }
+
+  .intro-text-button .container-ul li {
+    margin-bottom: 20px;
+  }
+
+  #open-modal {
+    width: 40%;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .footer-nav {
+    display: block;
+  }
+  
+  .footer-contato li {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+
+  /* MENU */
+  .container-nav {
+    display: none;
+  }
+
+  .toggle-btn {
+    color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+ /* DROPDOWN - MENU*/
+  .dropdown-menu,
+  .toggle-btn {
+  display: block;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    right: 0.1rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .dropdown-menu.open {
+    height: 240px;
+  }
+ 
+  .dropdown-menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* END MENU */
+
+  .about-services h3 {
+    text-align: center;
+  }
+
+  .container-allmodal {
+    display: block;
+  }
+
+  .container-modal .intro-modal img {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  .quality h2 {
+    font-size: 22px;
+  }
+
+  .quality img {
+    width: 140px;
+  }
+}
+
+
+@media screen and (max-width: 457px) {
+  .grid-1-3 {
+    width: 100vw;
+  }
+
+  .footer-midia-social ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-midia-social ul li {
+    margin-bottom: 10px;
+  }
+}
