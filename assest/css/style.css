@@ -39,8 +39,8 @@
   display: none;
 }
 
-.logo {
-  width: 8%;
+.logo img{
+  width: 135px;
   aspect-ratio: 3/3;
   object-fit: contain;
   mix-blend-mode: multiply;

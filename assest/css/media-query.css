@@ -108,7 +108,7 @@
   .dropdown-menu {
     position: absolute;
     right: 0.1rem;
-    top: 60px;
+    top: 75px;
     height: 0;
     width: 300px;
     background: rgba(255, 255, 255, 0.1);
