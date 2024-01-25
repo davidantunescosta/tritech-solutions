@@ -1,7 +1,7 @@
 import initModal from './modules/modal.js';
-import initMenu from './modules/menu.js';
+import initMenuMobile from './modules/menuMobile.js';
 import initScrollSuave from './modules/scroll-suave.js';
 
 initModal();
-initMenu();
+initMenuMobile();
 initScrollSuave();

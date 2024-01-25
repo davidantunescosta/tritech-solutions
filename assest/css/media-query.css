@@ -108,10 +108,11 @@
   .dropdown-menu {
     position: absolute;
     right: 0.1rem;
-    top: 75px;
+    top: 90px;
     height: 0;
-    width: 300px;
-    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    background: #ccc;
+    color: #000;
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
@@ -119,7 +120,11 @@
   }
 
   .dropdown-menu.open {
-    height: 240px;
+    height: 190px;
+  }
+
+  .dropdown-menu.open a {
+    color: #000;
   }
  
   .dropdown-menu li {
