@@ -111,12 +111,10 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ccc;
+  padding-right: 1rem;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
- 
 }
-
-
 
 .modal-body p {
   margin-bottom: 1rem;
@@ -130,6 +128,11 @@ button:hover {
 
 #modal.hide {
   top: 0;
+}
+
+#close-modal:hover {
+  background-color: red;
+  color: #000;
 }
 
 .form-control {
@@ -149,5 +152,8 @@ textarea {
   padding: 0.5rem 1rem;
   border-radius: 6px;
   background: #ffffff;
-  
+}
+
+.form-control .btn:hover {
+  background-color: green;
 }

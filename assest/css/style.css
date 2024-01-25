@@ -8,6 +8,13 @@
   list-style: none;
 }
 
+.whatsapp {
+  position: fixed;
+  width: 50px;
+  bottom: 10px;
+  right: 5px;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -18,7 +25,7 @@
 }
 
 .nav-container {
-  height: 60px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,7 +47,7 @@
 }
 
 .logo img{
-  width: 135px;
+  width: 12%;
   aspect-ratio: 3/3;
   object-fit: contain;
   mix-blend-mode: multiply;
@@ -95,6 +102,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 120px;
+  margin-top: 120px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -126,7 +134,7 @@
   border: 3px solid #fff;
   border-radius: 6px;
   padding: 10px 30px;
-  color: red;
+  color: #fff;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
@@ -252,7 +260,7 @@ p {
   border: 3px solid #101820;
   border-radius: 6px;
   padding: 10px 30px;
-  color: red;
+  color: black;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
@@ -296,7 +304,7 @@ a {
 
 .services-cards-container { 
   display: grid;
-  grid-column-gap: 16px;
+  grid-column-gap: 200px;
   grid-row-gap: 16px;
   grid-template-columns: .75fr .75fr;
 }
