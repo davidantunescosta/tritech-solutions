@@ -3,6 +3,13 @@
     width: 100%;
   }
 
+  .logo a img{
+    width: 20%;
+    aspect-ratio: 3/3;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+
   .quality::after {
     display: none;
   }
@@ -39,7 +46,13 @@
 }
 
 @media screen and (max-width:768px) {
-  
+  .logo a img{
+    width: 40%;
+    aspect-ratio: 3/3;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+
   .banner-text {
     margin-top: 40px;
     margin-bottom: 0px;
@@ -87,6 +100,13 @@
 }
 
 @media screen and (max-width: 568px) {
+  .logo a img{
+    width: 25%;
+    aspect-ratio: 3/3;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+
 
   /* MENU */
   .container-nav {
@@ -132,6 +152,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .dropdown-menu .services{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+  }
+
+  .dropdown-menu .services li {
+    background: rgb(229, 56, 45);
   }
 
   /* END MENU */
