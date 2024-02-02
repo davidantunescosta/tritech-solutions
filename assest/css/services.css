@@ -40,6 +40,7 @@ html {
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .logo img {
@@ -190,10 +191,11 @@ html {
   height: auto;
   cursor: pointer;
   border-radius: 20px 0px 20px 0px;
+  margin: 0 auto;
 }
 
-.image-project{
-  border-radius: 20px 0px 20px 0px;
+.image-project {
+  border-radius: 20px 20px 20px 20px;
   width: 600px;
   height: auto;
   cursor: pointer;
@@ -218,7 +220,7 @@ html {
   bottom: 0;
   justify-content: center;
   align-items: center;
-  margin-left: 32%;
+  margin-left: 40%;
   transition: all .3s ease;
   box-shadow: 4px 10px 4px #322c8e;
   margin-bottom: 60px;
